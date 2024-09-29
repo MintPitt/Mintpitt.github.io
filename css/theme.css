@@ -19,7 +19,8 @@ body {
 /* Customize the navbar links to be fill the entire space of the .navbar */
 
 .navbar .navbar-inner {
-	padding: 0
+	padding: 0;
+	background-color: #98FF98;
 }
 
 .navbar .nav {
@@ -397,7 +398,7 @@ body>.navbar .brand:hover {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #30393C;
+	background:  #98FF98;
 	background: -moz-linear-gradient(45deg, #30393C 0%, #000000 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #30393C), color-stop(100%, #30393C));
 	background: -webkit-linear-gradient(45deg, #30393C 0%, #000000 100%);
@@ -518,8 +519,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #000000;
+	background-color: #98FF98; /* Mint green */
+        border-top-color: #2F2F2F; 
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -547,6 +548,7 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #8F8F8F;
+/* 	color: #8F8F8F; */
+	color: #333;
 	font-size: 11px;
 }
