@@ -19,8 +19,7 @@ body {
 /* Customize the navbar links to be fill the entire space of the .navbar */
 
 .navbar .navbar-inner {
-	padding: 0;
-	background-color: #98FF98;
+	padding: 0
 }
 
 .navbar .nav {
@@ -36,7 +35,6 @@ body {
 }
 
 .navbar .nav li a {
-	color: #333; |important; /* Dark gray text *
 	font-weight: bold;
 	text-align: center;
 	border-left: 1px solid rgba(255, 255, 255, .75);
@@ -410,17 +408,6 @@ body>.navbar .brand:hover {
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 }
-/* .jumbotron {
-    position: relative;
-    padding: 45px 0px 35px 0px;
-    color: #333;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-    background: #98FF98; /* Mint green color */
-    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
-    background: linear-gradient(45deg, #98FF98 0%, #85E085 100%);
-} */
-
 
 .jumbotron:after {
 	content: '';
@@ -531,8 +518,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	background-color: #98FF98; /* Mint green */
-        border-top-color: #2F2F2F; 
+	background-color: #98FF98;
+        color: #333;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -560,7 +547,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-/* 	color: #8F8F8F; */
-	color: #FFF;
+	color: #8F8F8F;
 	font-size: 11px;
 }
