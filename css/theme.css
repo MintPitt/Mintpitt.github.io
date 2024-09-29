@@ -411,8 +411,8 @@ body>.navbar .brand:hover {
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 } */
 .jumbotron {
-    background-color: #98FF98 !important; /* Mint green */
-    color: #333 !important; /* Dark gray text for visibility */
+    background-color: #98FF98;
+    color: #FFF;
     text-align: center;
     padding: 45px 0 35px 0;
     box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
@@ -558,6 +558,6 @@ ul.sponsors {
 #footer p,
 #footer address {
 /* 	color: #8F8F8F; */
-	color: #333;
+	color: #FFF;
 	font-size: 11px;
 }
