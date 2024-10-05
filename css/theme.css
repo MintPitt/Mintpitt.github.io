@@ -561,6 +561,7 @@ ul.sponsors {
 	vertical-align: baseline;
 	text-align: center;
 	align-items:center;
+	display:inline;
 }
 
 #footer h3 {
@@ -575,14 +576,17 @@ ul.sponsors {
 	margin-bottom: 20px;
 	margin-top: 25px;
 	font-weight: normal;
+	display:inline;
 }
 
 #footer a img {
-	margin-top: 40px;
+	margin-top: 0px;
+	display:inline;
 }
 
 #footer p,
 #footer address {
 	color: #8F8F8F;
 	font-size: 11px;
+	display:inline;
 }
