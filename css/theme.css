@@ -502,7 +502,11 @@ img.publications-thumb {
 }
 
 img.carousel-image {
-	width: 100%;
+	/*width: 100%;*/
+	height: 500px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 li.publication {
