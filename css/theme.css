@@ -536,9 +536,9 @@ ul.sponsors {
 }
 
 #footer {
+	/*
 	display:flex;
-	align-items:center;
-	
+	*/
 	z-index: 10;
 	margin-top: 50px;
 	margin-bottom: 0px;
@@ -553,11 +553,10 @@ ul.sponsors {
 	font: inherit;
 	vertical-align: baseline;
 	text-align: center;
+	align-items:center;
 }
 
 #footer h3 {
-	display:flex;
-	align-items:center;
 	font-size: 19px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
@@ -572,13 +571,11 @@ ul.sponsors {
 }
 
 #footer a img {
-	align-items:center;
 	margin-top: 40px;
 }
 
 #footer p,
 #footer address {
-	align-items:center;
 	color: #8F8F8F;
 	font-size: 11px;
 }
