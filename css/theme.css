@@ -536,13 +536,17 @@ ul.sponsors {
 }
 
 #footer {
+	display:flex;
+	align-items:center;
+	
 	z-index: 10;
 	margin-top: 50px;
 	margin-bottom: 0px;
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	background-color: #98FF98;
+	/*background-color: #98FF98;*/
+	background-color: #32CD32
         color: #333;
 	border: 0;
 	font-size: 100%;
