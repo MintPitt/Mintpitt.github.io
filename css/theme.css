@@ -535,6 +535,12 @@ ul.sponsors {
 	margin-bottom: 40px;
 }
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 #footer {
 	/*
 	display:flex;
